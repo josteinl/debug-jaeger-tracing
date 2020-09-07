@@ -5,8 +5,8 @@ Test program to debug Jaegertracing on OpenShift
 
 ## Add or set project
 
-    oc login -u=<username> -p=<password>
-    
+    oc login -u <username> -p <password>
+
     # either create new project
     oc new-project tracetest --display-name="Trace testing"
     
