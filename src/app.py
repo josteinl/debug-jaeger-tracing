@@ -16,8 +16,8 @@ def hello_world():
 
 
 def initialize_tracer():
-    host = int(os.environ.get('REPORTING_HOST', 'localhost'))
-    port = int(os.environ.get('REPORTING_PORT', '5775'))
+    host = os.environ.get('REPORTING_HOST', 'localhost')
+    port = os.environ.get('REPORTING_PORT', '5775')
     print(f'Initialize tracer with {host}:{port}')
     config = Config(
         config={
