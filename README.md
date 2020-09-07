@@ -1,6 +1,11 @@
 # debug-jaeger-tracing
 Test program to debug Jaegertracing on OpenShift
 
+Have trouble getting traffic from a logging client into the 
+jaeger all-in-one container.
+
+I finally got this working. It now will log something on each request.
+
 # Deploy
 
 ## Add or set project
