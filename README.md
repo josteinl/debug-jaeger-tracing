@@ -28,3 +28,6 @@ or from github
     oc expose svc/debug-jaeger-tracing
 
 
+# References
+
+https://scoutapm.com/blog/tutorial-tracing-python-flask-requests-with-opentracing

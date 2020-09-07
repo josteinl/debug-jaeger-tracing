@@ -1,1 +1,3 @@
 flask
+jaeger-client
+Flask-Opentracing
